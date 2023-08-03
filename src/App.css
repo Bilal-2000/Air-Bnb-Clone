@@ -1,0 +1,205 @@
+.header {
+  width: 40%;
+  height: 70px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.airbnb-logo {
+  padding-left: 28px;
+  width: 82px;
+  height: 25px;
+}
+
+.main {
+  width: 40%;
+  height: 420px;
+  background: #FFF;
+}
+
+
+.pics-flex-wrapper {
+  margin: 0;
+  padding: 0;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pics-group{
+  height: 232px;
+  width: 70%;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.para-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 30%;
+  background: #FFF;
+}
+
+.main-heading{
+  color: #000;
+  font-family: Poppins,sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  padding-left: 36px;
+}
+
+.sub-heading{
+  max-width: 320px;
+  color: #222;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-top: 16px;
+  padding-left: 36px;
+}
+
+.card-wrapper{
+  height: 353px;
+  width: 40%;
+  background: #FFF;
+}
+
+.pics-wrapper{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 36px;
+  margin-top: 25px;
+  overflow-x: hidden;
+}
+
+.pics-wrapper img{
+  height: 235px;
+  width: 176px;
+  margin-right: 18px;
+}
+
+.rating-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-wrapper{
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 36px;
+  overflow-x: hidden;
+  justify-content: flex-start;
+}
+
+.details-wrapper div{
+  margin-right: 18px;
+  min-width: 176px;
+  display: flex;
+  align-items: center;
+}
+
+.star-logo{
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+}
+
+.ellipse-logo{
+  width: 2px;
+  height: 2px;
+  margin-right: 2px;
+}
+
+.rating{
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-right: 3px;
+}
+
+.reviews{
+  color: #918E9B;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-right: 2px;
+
+}
+
+.inner-card-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.review-para{
+  display: flex;
+  align-items: flex-start;
+  overflow-x: hidden;
+  padding-left: 36px;
+  margin-top: 11px;
+}
+
+.review-para p{
+  min-width: 176px;
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-right: 18px;
+}
+
+.cost-para{
+  display: flex;
+  align-items: flex-start;
+  overflow-x: hidden;
+  padding-left: 36px;
+  margin-top: 8px;
+}
+
+.cost-para div{
+  min-width: 176px;
+  margin-right: 18px;
+}
+
+.bold-cost-para{
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.non-bold-cost-para{
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+

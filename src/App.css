@@ -78,6 +78,8 @@ p{
   height: 353px;
   width: 40%;
   background: #FFF;
+  display: flex;
+  flex-direction: row;
 }
 
 .pics-wrapper{
@@ -159,6 +161,7 @@ p{
   overflow-x: hidden;
   padding-left: 36px;
   margin-top: 11px;
+  word-wrap: nowrap;
 }
 
 .review-para p{
@@ -201,5 +204,15 @@ p{
   font-style: normal;
   font-weight: 300;
   line-height: 110%;
+}
+
+.comp-wrapper{
+  display: flex;
+  width: 40%;
+  overflow-x: auto;
+  height: 353px;
+  background: #FFF;
+  overflow-y: hidden;
+  padding-bottom: 20px;
 }
 
